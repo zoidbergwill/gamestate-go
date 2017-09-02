@@ -1,0 +1,2247 @@
+POST / HTTP/1.1
+Host: 172.0.0.242:8080
+Accept: text/html,*/*;q=0.9
+Accept-Charset: ISO-8859-1,utf-8,*;q=0.7
+Accept-Encoding: gzip,identity,*;q=0
+Content-Length: 300
+Content-Type: application/json
+User-Agent: Valve/Steam HTTP Client 1.0 (730)
+
+{
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13600,
+		"steamid": "76561197991583913",
+		"timestamp": 1504359555
+	},
+	"player": {
+		"steamid": "76561197991583913",
+		"name": "z0id",
+		"activity": "menu"
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+POST / HTTP/1.1
+Host: 172.0.0.242:8080
+Accept: text/html,*/*;q=0.9
+Accept-Charset: ISO-8859-1,utf-8,*;q=0.7
+Accept-Encoding: gzip,identity,*;q=0
+Content-Length: 1257
+Content-Type: application/json
+User-Agent: Valve/Steam HTTP Client 1.0 (730)
+
+{
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13600,
+		"steamid": "76561197991583913",
+		"timestamp": 1504359608
+	},
+	"map": {
+		"mode": "competitive",
+		"name": "de_inferno",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561197991583913",
+		"name": "unconnected",
+		"observer_slot": -1,
+		"activity": "playing",
+		"state": {
+			"health": 0,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 800,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 0
+		},
+		"weapons": {
+
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"name": "z0id",
+			"activity": "menu"
+		}
+	},
+	"added": {
+		"player": {
+			"observer_slot": true,
+			"state": true,
+			"weapons": true,
+			"match_stats": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+POST / HTTP/1.1
+Host: 172.0.0.242:8080
+Accept: text/html,*/*;q=0.9
+Accept-Charset: ISO-8859-1,utf-8,*;q=0.7
+Accept-Encoding: gzip,identity,*;q=0
+Content-Length: 1187
+Content-Type: application/json
+User-Agent: Valve/Steam HTTP Client 1.0 (730)
+
+{
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13600,
+		"steamid": "76561197991583913",
+		"timestamp": 1504359614
+	},
+	"map": {
+		"mode": "competitive",
+		"name": "de_inferno",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561197991583913",
+		"clan": "#huehueRIP",
+		"name": "z0id",
+		"observer_slot": -1,
+		"activity": "playing",
+		"state": {
+			"health": 0,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 800,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 0
+		},
+		"weapons": {
+
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"name": "unconnected"
+		}
+	},
+	"added": {
+		"player": {
+			"clan": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+POST / HTTP/1.1
+Host: 172.0.0.242:8080
+Accept: text/html,*/*;q=0.9
+Accept-Charset: ISO-8859-1,utf-8,*;q=0.7
+Accept-Encoding: gzip,identity,*;q=0
+Content-Length: 1686
+Content-Type: application/json
+User-Agent: Valve/Steam HTTP Client 1.0 (730)
+
+{
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13600,
+		"steamid": "76561197991583913",
+		"timestamp": 1504359616
+	},
+	"map": {
+		"mode": "competitive",
+		"name": "de_inferno",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "over"
+	},
+	"player": {
+		"steamid": "76561197991583913",
+		"clan": "#huehueRIP",
+		"name": "z0id",
+		"observer_slot": 1,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 800,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_bayonet",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "hy_craquelure",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"round": {
+			"phase": "live"
+		},
+		"player": {
+			"observer_slot": -1,
+			"state": {
+				"health": 0,
+				"equip_value": 0
+			}
+		}
+	},
+	"added": {
+		"player": {
+			"weapons": {
+				"weapon_0": true,
+				"weapon_1": true
+			},
+			"team": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+POST / HTTP/1.1
+Host: 172.0.0.242:8080
+Accept: text/html,*/*;q=0.9
+Accept-Charset: ISO-8859-1,utf-8,*;q=0.7
+Accept-Encoding: gzip,identity,*;q=0
+Content-Length: 1856
+Content-Type: application/json
+User-Agent: Valve/Steam HTTP Client 1.0 (730)
+
+{
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13600,
+		"steamid": "76561197991583913",
+		"timestamp": 1504359617
+	},
+	"map": {
+		"mode": "competitive",
+		"name": "de_inferno",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"name": "HUE HUE",
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "freezetime"
+	},
+	"player": {
+		"steamid": "76561197991583913",
+		"clan": "#huehueRIP",
+		"name": "z0id",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 800,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_bayonet",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "hy_craquelure",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"added": {
+		"map": {
+			"team_t": {
+				"name": true
+			}
+		},
+		"player": {
+			"weapons": {
+				"weapon_2": true
+			}
+		}
+	},
+	"previously": {
+		"round": {
+			"phase": "over"
+		},
+		"player": {
+			"observer_slot": 1,
+			"weapons": {
+				"weapon_1": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+POST / HTTP/1.1
+Host: 172.0.0.242:8080
+Accept: text/html,*/*;q=0.9
+Accept-Charset: ISO-8859-1,utf-8,*;q=0.7
+Accept-Encoding: gzip,identity,*;q=0
+Content-Length: 2209
+Content-Type: application/json
+User-Agent: Valve/Steam HTTP Client 1.0 (730)
+
+{
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13600,
+		"steamid": "76561197991583913",
+		"timestamp": 1504359632
+	},
+	"map": {
+		"mode": "competitive",
+		"name": "de_inferno",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"name": "HUE HUE",
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561197991583913",
+		"clan": "#huehueRIP",
+		"name": "z0id",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 800
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_bayonet",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_tec9",
+				"paintkit": "cu_tec9_sandstorm",
+				"type": "Pistol",
+				"ammo_clip": 18,
+				"ammo_clip_max": 18,
+				"ammo_reserve": 90,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_smokegrenade",
+				"paintkit": "default",
+				"type": "Grenade",
+				"ammo_reserve": 1,
+				"state": "holstered"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"round": {
+			"phase": "freezetime"
+		},
+		"player": {
+			"state": {
+				"money": 800,
+				"equip_value": 200
+			},
+			"weapons": {
+				"weapon_0": {
+					"state": "holstered"
+				},
+				"weapon_1": {
+					"name": "weapon_glock",
+					"paintkit": "hy_craquelure",
+					"ammo_clip": 20,
+					"ammo_clip_max": 20,
+					"ammo_reserve": 120
+				},
+				"weapon_2": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"added": {
+		"player": {
+			"weapons": {
+				"weapon_3": true
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+POST / HTTP/1.1
+Host: 172.0.0.242:8080
+Accept: text/html,*/*;q=0.9
+Accept-Charset: ISO-8859-1,utf-8,*;q=0.7
+Accept-Encoding: gzip,identity,*;q=0
+Content-Length: 1984
+Content-Type: application/json
+User-Agent: Valve/Steam HTTP Client 1.0 (730)
+
+{
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13600,
+		"steamid": "76561197991583913",
+		"timestamp": 1504359670
+	},
+	"map": {
+		"mode": "competitive",
+		"name": "de_inferno",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"name": "HUE HUE",
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561197991583913",
+		"clan": "#huehueRIP",
+		"name": "z0id",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 300,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 800
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_bayonet",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_tec9",
+				"paintkit": "cu_tec9_sandstorm",
+				"type": "Pistol",
+				"ammo_clip": 18,
+				"ammo_clip_max": 18,
+				"ammo_reserve": 89,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 2
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"money": 0
+			},
+			"weapons": {
+				"weapon_0": {
+					"state": "active"
+				},
+				"weapon_1": {
+					"ammo_reserve": 90,
+					"state": "holstered"
+				},
+				"weapon_2": {
+					"name": "weapon_c4",
+					"paintkit": "default",
+					"type": "C4",
+					"state": "holstered"
+				},
+				"weapon_3": {
+					"name": "weapon_smokegrenade",
+					"paintkit": "default",
+					"type": "Grenade",
+					"ammo_reserve": 1,
+					"state": "holstered"
+				}
+			},
+			"match_stats": {
+				"score": 0
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+POST / HTTP/1.1
+Host: 172.0.0.242:8080
+Accept: text/html,*/*;q=0.9
+Accept-Charset: ISO-8859-1,utf-8,*;q=0.7
+Accept-Encoding: gzip,identity,*;q=0
+Content-Length: 1666
+Content-Type: application/json
+User-Agent: Valve/Steam HTTP Client 1.0 (730)
+
+{
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13600,
+		"steamid": "76561197991583913",
+		"timestamp": 1504359672
+	},
+	"map": {
+		"mode": "competitive",
+		"name": "de_inferno",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"name": "HUE HUE",
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561197991583913",
+		"clan": "#huehueRIP",
+		"name": "z0id",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 300,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 800
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_bayonet",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_tec9",
+				"paintkit": "cu_tec9_sandstorm",
+				"type": "Pistol",
+				"ammo_clip": 18,
+				"ammo_clip_max": 18,
+				"ammo_reserve": 89,
+				"state": "holstered"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 2
+		}
+	},
+	"added": {
+		"round": {
+			"bomb": true
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "holstered"
+				},
+				"weapon_1": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+POST / HTTP/1.1
+Host: 172.0.0.242:8080
+Accept: text/html,*/*;q=0.9
+Accept-Charset: ISO-8859-1,utf-8,*;q=0.7
+Accept-Encoding: gzip,identity,*;q=0
+Content-Length: 1998
+Content-Type: application/json
+User-Agent: Valve/Steam HTTP Client 1.0 (730)
+
+{
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13600,
+		"steamid": "76561197991583913",
+		"timestamp": 1504359679
+	},
+	"map": {
+		"mode": "competitive",
+		"name": "de_inferno",
+		"phase": "live",
+		"round": 1,
+		"team_ct": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 1,
+			"name": "HUE HUE",
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "over",
+		"win_team": "T"
+	},
+	"player": {
+		"steamid": "76561197991583913",
+		"clan": "#huehueRIP",
+		"name": "z0id",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 16,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3850,
+			"round_kills": 1,
+			"round_killhs": 1,
+			"equip_value": 800
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_bayonet",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_tec9",
+				"paintkit": "cu_tec9_sandstorm",
+				"type": "Pistol",
+				"ammo_clip": 15,
+				"ammo_clip_max": 18,
+				"ammo_reserve": 87,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 1,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 4
+		}
+	},
+	"previously": {
+		"map": {
+			"round": 0,
+			"team_t": {
+				"score": 0
+			}
+		},
+		"round": {
+			"phase": "live",
+			"bomb": "planted"
+		},
+		"player": {
+			"state": {
+				"health": 100,
+				"money": 300,
+				"round_kills": 0,
+				"round_killhs": 0
+			},
+			"weapons": {
+				"weapon_0": {
+					"state": "active"
+				},
+				"weapon_1": {
+					"ammo_clip": 18,
+					"ammo_reserve": 89,
+					"state": "holstered"
+				}
+			},
+			"match_stats": {
+				"kills": 0,
+				"score": 2
+			}
+		}
+	},
+	"added": {
+		"round": {
+			"win_team": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+POST / HTTP/1.1
+Host: 172.0.0.242:8080
+Accept: text/html,*/*;q=0.9
+Accept-Charset: ISO-8859-1,utf-8,*;q=0.7
+Accept-Encoding: gzip,identity,*;q=0
+Content-Length: 1956
+Content-Type: application/json
+User-Agent: Valve/Steam HTTP Client 1.0 (730)
+
+{
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13600,
+		"steamid": "76561197991583913",
+		"timestamp": 1504359687
+	},
+	"map": {
+		"mode": "competitive",
+		"name": "de_inferno",
+		"phase": "live",
+		"round": 1,
+		"team_ct": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 1,
+			"name": "HUE HUE",
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "freezetime"
+	},
+	"player": {
+		"steamid": "76561197991583913",
+		"clan": "#huehueRIP",
+		"name": "z0id",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3850,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 500
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_bayonet",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_tec9",
+				"paintkit": "cu_tec9_sandstorm",
+				"type": "Pistol",
+				"ammo_clip": 18,
+				"ammo_clip_max": 18,
+				"ammo_reserve": 90,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 1,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 4
+		}
+	},
+	"previously": {
+		"round": {
+			"phase": "over",
+			"win_team": "T"
+		},
+		"player": {
+			"state": {
+				"health": 16,
+				"round_kills": 1,
+				"round_killhs": 1,
+				"equip_value": 800
+			},
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 15,
+					"ammo_reserve": 87,
+					"state": "active"
+				}
+			}
+		}
+	},
+	"added": {
+		"player": {
+			"weapons": {
+				"weapon_2": true
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+POST / HTTP/1.1
+Host: 172.0.0.242:8080
+Accept: text/html,*/*;q=0.9
+Accept-Charset: ISO-8859-1,utf-8,*;q=0.7
+Accept-Encoding: gzip,identity,*;q=0
+Content-Length: 2255
+Content-Type: application/json
+User-Agent: Valve/Steam HTTP Client 1.0 (730)
+
+{
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13600,
+		"steamid": "76561197991583913",
+		"timestamp": 1504359701
+	},
+	"map": {
+		"mode": "competitive",
+		"name": "de_inferno",
+		"phase": "live",
+		"round": 1,
+		"team_ct": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 1,
+			"name": "HUE HUE",
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561197991583913",
+		"clan": "#huehueRIP",
+		"name": "z0id",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 100,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 4250
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_bayonet",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_tec9",
+				"paintkit": "cu_tec9_sandstorm",
+				"type": "Pistol",
+				"ammo_clip": 18,
+				"ammo_clip_max": 18,
+				"ammo_reserve": 90,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_ak47",
+				"paintkit": "hy_ak47lam_blue",
+				"type": "Rifle",
+				"ammo_clip": 30,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "holstered"
+			},
+			"weapon_4": {
+				"name": "weapon_decoy",
+				"paintkit": "default",
+				"type": "Grenade",
+				"ammo_reserve": 1,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 1,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 4
+		}
+	},
+	"previously": {
+		"round": {
+			"phase": "freezetime"
+		},
+		"player": {
+			"state": {
+				"armor": 0,
+				"helmet": false,
+				"money": 3850,
+				"equip_value": 500
+			},
+			"weapons": {
+				"weapon_2": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"added": {
+		"player": {
+			"weapons": {
+				"weapon_3": true,
+				"weapon_4": true
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+POST / HTTP/1.1
+Host: 172.0.0.242:8080
+Accept: text/html,*/*;q=0.9
+Accept-Charset: ISO-8859-1,utf-8,*;q=0.7
+Accept-Encoding: gzip,identity,*;q=0
+Content-Length: 2268
+Content-Type: application/json
+User-Agent: Valve/Steam HTTP Client 1.0 (730)
+
+{
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13600,
+		"steamid": "76561197991583913",
+		"timestamp": 1504359737
+	},
+	"map": {
+		"mode": "competitive",
+		"name": "de_inferno",
+		"phase": "live",
+		"round": 1,
+		"team_ct": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 1,
+			"name": "HUE HUE",
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561197991583913",
+		"clan": "#huehueRIP",
+		"name": "z0id",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 90,
+			"armor": 96,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 400,
+			"round_kills": 1,
+			"round_killhs": 1,
+			"equip_value": 4200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_bayonet",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_tec9",
+				"paintkit": "cu_tec9_sandstorm",
+				"type": "Pistol",
+				"ammo_clip": 17,
+				"ammo_clip_max": 18,
+				"ammo_reserve": 87,
+				"state": "active"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_ak47",
+				"paintkit": "hy_ak47lam_blue",
+				"type": "Rifle",
+				"ammo_clip": 30,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "holstered"
+			}
+		},
+		"match_stats": {
+			"kills": 2,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 6
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"health": 100,
+				"armor": 100,
+				"money": 100,
+				"round_kills": 0,
+				"round_killhs": 0,
+				"equip_value": 4250
+			},
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 18,
+					"ammo_reserve": 90,
+					"state": "holstered"
+				},
+				"weapon_4": {
+					"name": "weapon_decoy",
+					"paintkit": "default",
+					"type": "Grenade",
+					"ammo_reserve": 1,
+					"state": "active"
+				}
+			},
+			"match_stats": {
+				"kills": 1,
+				"score": 4
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+POST / HTTP/1.1
+Host: 172.0.0.242:8080
+Accept: text/html,*/*;q=0.9
+Accept-Charset: ISO-8859-1,utf-8,*;q=0.7
+Accept-Encoding: gzip,identity,*;q=0
+Content-Length: 1977
+Content-Type: application/json
+User-Agent: Valve/Steam HTTP Client 1.0 (730)
+
+{
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13600,
+		"steamid": "76561197991583913",
+		"timestamp": 1504359740
+	},
+	"map": {
+		"mode": "competitive",
+		"name": "de_inferno",
+		"phase": "live",
+		"round": 1,
+		"team_ct": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 1,
+			"name": "HUE HUE",
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561197991583913",
+		"clan": "#huehueRIP",
+		"name": "z0id",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 90,
+			"armor": 96,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 700,
+			"round_kills": 2,
+			"round_killhs": 1,
+			"equip_value": 4200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_bayonet",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_tec9",
+				"paintkit": "cu_tec9_sandstorm",
+				"type": "Pistol",
+				"ammo_clip": 8,
+				"ammo_clip_max": 18,
+				"ammo_reserve": 87,
+				"state": "active"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_ak47",
+				"paintkit": "hy_ak47lam_blue",
+				"type": "Rifle",
+				"ammo_clip": 30,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "holstered"
+			}
+		},
+		"match_stats": {
+			"kills": 3,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 8
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"money": 400,
+				"round_kills": 1
+			},
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 17
+				}
+			},
+			"match_stats": {
+				"kills": 2,
+				"score": 6
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+POST / HTTP/1.1
+Host: 172.0.0.242:8080
+Accept: text/html,*/*;q=0.9
+Accept-Charset: ISO-8859-1,utf-8,*;q=0.7
+Accept-Encoding: gzip,identity,*;q=0
+Content-Length: 2316
+Content-Type: application/json
+User-Agent: Valve/Steam HTTP Client 1.0 (730)
+
+{
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13600,
+		"steamid": "76561197991583913",
+		"timestamp": 1504359751
+	},
+	"map": {
+		"mode": "competitive",
+		"name": "de_inferno",
+		"phase": "live",
+		"round": 1,
+		"team_ct": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 1,
+			"name": "HUE HUE",
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561197991583913",
+		"clan": "#huehueRIP",
+		"name": "z0id",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 90,
+			"armor": 96,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 1000,
+			"round_kills": 2,
+			"round_killhs": 1,
+			"equip_value": 4200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_bayonet",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_tec9",
+				"paintkit": "cu_tec9_sandstorm",
+				"type": "Pistol",
+				"ammo_clip": 8,
+				"ammo_clip_max": 18,
+				"ammo_reserve": 87,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_ak47",
+				"paintkit": "hy_ak47lam_blue",
+				"type": "Rifle",
+				"ammo_clip": 30,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 3,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 10
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"money": 700
+			},
+			"weapons": {
+				"weapon_1": {
+					"state": "active"
+				},
+				"weapon_2": {
+					"name": "weapon_c4",
+					"paintkit": "default",
+					"type": "C4",
+					"state": "holstered"
+				},
+				"weapon_3": {
+					"name": "weapon_ak47",
+					"paintkit": "hy_ak47lam_blue",
+					"type": "Rifle",
+					"ammo_clip": 30,
+					"ammo_clip_max": 30,
+					"ammo_reserve": 90,
+					"state": "holstered"
+				}
+			},
+			"match_stats": {
+				"score": 8
+			}
+		}
+	},
+	"added": {
+		"player": {
+			"weapons": {
+				"weapon_2": {
+					"ammo_clip": true,
+					"ammo_clip_max": true,
+					"ammo_reserve": true
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+POST / HTTP/1.1
+Host: 172.0.0.242:8080
+Accept: text/html,*/*;q=0.9
+Accept-Charset: ISO-8859-1,utf-8,*;q=0.7
+Accept-Encoding: gzip,identity,*;q=0
+Content-Length: 1710
+Content-Type: application/json
+User-Agent: Valve/Steam HTTP Client 1.0 (730)
+
+{
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13600,
+		"steamid": "76561197991583913",
+		"timestamp": 1504359753
+	},
+	"map": {
+		"mode": "competitive",
+		"name": "de_inferno",
+		"phase": "live",
+		"round": 1,
+		"team_ct": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 1,
+			"name": "HUE HUE",
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561197991583913",
+		"clan": "#huehueRIP",
+		"name": "z0id",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 90,
+			"armor": 96,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 1000,
+			"round_kills": 2,
+			"round_killhs": 1,
+			"equip_value": 4200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_bayonet",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_tec9",
+				"paintkit": "cu_tec9_sandstorm",
+				"type": "Pistol",
+				"ammo_clip": 8,
+				"ammo_clip_max": 18,
+				"ammo_reserve": 87,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_ak47",
+				"paintkit": "hy_ak47lam_blue",
+				"type": "Rifle",
+				"ammo_clip": 30,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 3,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 10
+		}
+	},
+	"added": {
+		"round": {
+			"bomb": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+POST / HTTP/1.1
+Host: 172.0.0.242:8080
+Accept: text/html,*/*;q=0.9
+Accept-Charset: ISO-8859-1,utf-8,*;q=0.7
+Accept-Encoding: gzip,identity,*;q=0
+Content-Length: 1860
+Content-Type: application/json
+User-Agent: Valve/Steam HTTP Client 1.0 (730)
+
+{
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13600,
+		"steamid": "76561197991583913",
+		"timestamp": 1504359756
+	},
+	"map": {
+		"mode": "competitive",
+		"name": "de_inferno",
+		"phase": "live",
+		"round": 1,
+		"team_ct": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 1,
+			"name": "HUE HUE",
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561197991583913",
+		"clan": "#huehueRIP",
+		"name": "z0id",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 90,
+			"armor": 96,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 700,
+			"round_kills": 2,
+			"round_killhs": 1,
+			"equip_value": 4200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_bayonet",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_tec9",
+				"paintkit": "cu_tec9_sandstorm",
+				"type": "Pistol",
+				"ammo_clip": 8,
+				"ammo_clip_max": 18,
+				"ammo_reserve": 87,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_ak47",
+				"paintkit": "hy_ak47lam_blue",
+				"type": "Rifle",
+				"ammo_clip": 19,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 2,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 8
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"money": 1000
+			},
+			"weapons": {
+				"weapon_2": {
+					"ammo_clip": 30
+				}
+			},
+			"match_stats": {
+				"kills": 3,
+				"score": 10
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+POST / HTTP/1.1
+Host: 172.0.0.242:8080
+Accept: text/html,*/*;q=0.9
+Accept-Charset: ISO-8859-1,utf-8,*;q=0.7
+Accept-Encoding: gzip,identity,*;q=0
+Content-Length: 2181
+Content-Type: application/json
+User-Agent: Valve/Steam HTTP Client 1.0 (730)
+
+{
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13600,
+		"steamid": "76561197991583913",
+		"timestamp": 1504359770
+	},
+	"map": {
+		"mode": "competitive",
+		"name": "de_inferno",
+		"phase": "live",
+		"round": 2,
+		"team_ct": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 1,
+			"name": "HUE HUE",
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "over",
+		"win_team": "T"
+	},
+	"player": {
+		"steamid": "76561197991583913",
+		"clan": "#huehueRIP",
+		"name": "z0id",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 90,
+			"armor": 96,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 4250,
+			"round_kills": 3,
+			"round_killhs": 2,
+			"equip_value": 4200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_bayonet",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_tec9",
+				"paintkit": "cu_tec9_sandstorm",
+				"type": "Pistol",
+				"ammo_clip": 5,
+				"ammo_clip_max": 18,
+				"ammo_reserve": 87,
+				"state": "active"
+			},
+			"weapon_2": {
+				"name": "weapon_ak47",
+				"paintkit": "hy_ak47lam_blue",
+				"type": "Rifle",
+				"ammo_clip": 30,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 75,
+				"state": "holstered"
+			}
+		},
+		"match_stats": {
+			"kills": 3,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 1,
+			"score": 10
+		}
+	},
+	"previously": {
+		"map": {
+			"round": 1
+		},
+		"round": {
+			"phase": "live",
+			"bomb": "planted"
+		},
+		"player": {
+			"state": {
+				"money": 700,
+				"round_kills": 2,
+				"round_killhs": 1
+			},
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 8,
+					"state": "holstered"
+				},
+				"weapon_2": {
+					"ammo_clip": 19,
+					"ammo_reserve": 90,
+					"state": "active"
+				}
+			},
+			"match_stats": {
+				"kills": 2,
+				"mvps": 0,
+				"score": 8
+			}
+		}
+	},
+	"added": {
+		"round": {
+			"win_team": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+POST / HTTP/1.1
+Host: 172.0.0.242:8080
+Accept: text/html,*/*;q=0.9
+Accept-Charset: ISO-8859-1,utf-8,*;q=0.7
+Accept-Encoding: gzip,identity,*;q=0
+Content-Length: 1820
+Content-Type: application/json
+User-Agent: Valve/Steam HTTP Client 1.0 (730)
+
+{
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13600,
+		"steamid": "76561197991583913",
+		"timestamp": 1504359771
+	},
+	"map": {
+		"mode": "competitive",
+		"name": "de_inferno",
+		"phase": "live",
+		"round": 2,
+		"team_ct": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 2,
+			"name": "HUE HUE",
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "over",
+		"win_team": "T"
+	},
+	"player": {
+		"steamid": "76561197991583913",
+		"clan": "#huehueRIP",
+		"name": "z0id",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 90,
+			"armor": 96,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 4250,
+			"round_kills": 3,
+			"round_killhs": 2,
+			"equip_value": 4200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_bayonet",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_tec9",
+				"paintkit": "cu_tec9_sandstorm",
+				"type": "Pistol",
+				"ammo_clip": 5,
+				"ammo_clip_max": 18,
+				"ammo_reserve": 87,
+				"state": "reloading"
+			},
+			"weapon_2": {
+				"name": "weapon_ak47",
+				"paintkit": "hy_ak47lam_blue",
+				"type": "Rifle",
+				"ammo_clip": 30,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 75,
+				"state": "holstered"
+			}
+		},
+		"match_stats": {
+			"kills": 3,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 1,
+			"score": 10
+		}
+	},
+	"previously": {
+		"map": {
+			"team_t": {
+				"score": 1
+			}
+		},
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+POST / HTTP/1.1
+Host: 172.0.0.242:8080
+Accept: text/html,*/*;q=0.9
+Accept-Charset: ISO-8859-1,utf-8,*;q=0.7
+Accept-Encoding: gzip,identity,*;q=0
+Content-Length: 2347
+Content-Type: application/json
+User-Agent: Valve/Steam HTTP Client 1.0 (730)
+
+{
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13600,
+		"steamid": "76561197991583913",
+		"timestamp": 1504359777
+	},
+	"map": {
+		"mode": "competitive",
+		"name": "de_inferno",
+		"phase": "live",
+		"round": 2,
+		"team_ct": {
+			"score": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 2,
+			"name": "HUE HUE",
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "freezetime"
+	},
+	"player": {
+		"steamid": "76561197991583913",
+		"clan": "#huehueRIP",
+		"name": "z0id",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 96,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 4250,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 4200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_bayonet",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_tec9",
+				"paintkit": "cu_tec9_sandstorm",
+				"type": "Pistol",
+				"ammo_clip": 18,
+				"ammo_clip_max": 18,
+				"ammo_reserve": 90,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "active"
+			},
+			"weapon_3": {
+				"name": "weapon_ak47",
+				"paintkit": "hy_ak47lam_blue",
+				"type": "Rifle",
+				"ammo_clip": 30,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "holstered"
+			}
+		},
+		"match_stats": {
+			"kills": 3,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 1,
+			"score": 10
+		}
+	},
+	"previously": {
+		"round": {
+			"phase": "over",
+			"win_team": "T"
+		},
+		"player": {
+			"state": {
+				"health": 90,
+				"round_kills": 3,
+				"round_killhs": 2
+			},
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 5,
+					"ammo_reserve": 87,
+					"state": "reloading"
+				},
+				"weapon_2": {
+					"name": "weapon_ak47",
+					"paintkit": "hy_ak47lam_blue",
+					"type": "Rifle",
+					"ammo_clip": 30,
+					"ammo_clip_max": 30,
+					"ammo_reserve": 75,
+					"state": "holstered"
+				}
+			}
+		}
+	},
+	"added": {
+		"player": {
+			"weapons": {
+				"weapon_3": true
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+POST / HTTP/1.1
+Host: 172.0.0.242:8080
+Accept: text/html,*/*;q=0.9
+Accept-Charset: ISO-8859-1,utf-8,*;q=0.7
+Accept-Encoding: gzip,identity,*;q=0
+Content-Length: 1482
+Content-Type: application/json
+User-Agent: Valve/Steam HTTP Client 1.0 (730)
+
+{
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13600,
+		"steamid": "76561197991583913",
+		"timestamp": 1504359781
+	},
+	"player": {
+		"steamid": "76561197991583913",
+		"name": "z0id",
+		"activity": "menu"
+	},
+	"previously": {
+		"map": true,
+		"round": true,
+		"player": {
+			"clan": "#huehueRIP",
+			"observer_slot": 6,
+			"team": "T",
+			"activity": "playing",
+			"state": {
+				"health": 100,
+				"armor": 96,
+				"helmet": true,
+				"flashed": 0,
+				"smoked": 0,
+				"burning": 0,
+				"money": 4250,
+				"round_kills": 0,
+				"round_killhs": 0,
+				"equip_value": 4200
+			},
+			"weapons": {
+				"weapon_0": {
+					"name": "weapon_bayonet",
+					"paintkit": "default",
+					"type": "Knife",
+					"state": "holstered"
+				},
+				"weapon_1": {
+					"name": "weapon_tec9",
+					"paintkit": "cu_tec9_sandstorm",
+					"type": "Pistol",
+					"ammo_clip": 18,
+					"ammo_clip_max": 18,
+					"ammo_reserve": 90,
+					"state": "holstered"
+				},
+				"weapon_2": {
+					"name": "weapon_c4",
+					"paintkit": "default",
+					"type": "C4",
+					"state": "active"
+				},
+				"weapon_3": {
+					"name": "weapon_ak47",
+					"paintkit": "hy_ak47lam_blue",
+					"type": "Rifle",
+					"ammo_clip": 30,
+					"ammo_clip_max": 30,
+					"ammo_reserve": 90,
+					"state": "holstered"
+				}
+			},
+			"match_stats": {
+				"kills": 3,
+				"assists": 0,
+				"deaths": 0,
+				"mvps": 1,
+				"score": 10
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
