@@ -12,7 +12,7 @@ type MessageStream struct {
 }
 
 func TestSchema(t *testing.T) {
-	file, err := ioutil.ReadFile("./samples.json.stream")
+	file, err := ioutil.ReadFile("./samples.json")
 	if err != nil {
 		t.Error("File error: %v\n", err)
 	}
