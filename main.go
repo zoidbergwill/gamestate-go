@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"flag"
 	"fmt"
 	"io/ioutil"
 	"log"
@@ -123,9 +124,27 @@ func handler(w http.ResponseWriter, req *http.Request) {
 	w.Write([]byte("This is an example server.\n"))
 }
 
+var host string
+var port string
+
+func init() {
+	const (
+		defaultHost = "127.0.0.1"
+		hostUsage   = "the address for the server to bind to"
+		defaultPort = "8080"
+		portUsage   = "the port for the server to listen on"
+	)
+	flag.StringVar(&host, "host", defaultHost, hostUsage)
+	flag.StringVar(&host, "h", defaultHost, hostUsage+" (shorthand)")
+	flag.StringVar(&port, "port", defaultPort, portUsage)
+	flag.StringVar(&port, "p", defaultPort, portUsage+" (shorthand)")
+}
+
 func main() {
+	flag.Parse()
 	http.HandleFunc("/", handler)
-	log.Printf("About to listen on 8080. Go to http://127.0.0.1:8080/")
-	err := http.ListenAndServe("0.0.0.0:8080", nil)
+	address := fmt.Sprintf("%s:%s", host, port)
+	log.Printf("About to listen on http://%s/", address)
+	err := http.ListenAndServe(address, nil)
 	log.Fatal(err)
 }
