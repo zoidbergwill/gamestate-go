@@ -7,6 +7,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"io"
 )
 
 type Provider struct {
@@ -104,28 +105,9 @@ type Message struct {
 	Auth            Auth              `json:"auth"`
 }
 
-func handler(w http.ResponseWriter, req *http.Request) {
-	if req.Method == "POST" {
-		body, err := ioutil.ReadAll(req.Body)
-		fmt.Println(string(body))
-		if err != nil {
-			log.Printf("Error reading body: %v", err)
-			http.Error(w, "can't read body", http.StatusBadRequest)
-			return
-		}
-		var message Message
-		err = json.Unmarshal(body, &message)
-		if err != nil {
-			fmt.Println(err)
-		}
-		fmt.Printf("%+v\n", message)
-	}
-	w.Header().Set("Content-Type", "text/plain")
-	w.Write([]byte("This is an example server.\n"))
-}
-
 var host string
 var port string
+var verbose bool
 
 func init() {
 	const (
@@ -133,16 +115,57 @@ func init() {
 		hostUsage   = "the address for the server to bind to"
 		defaultPort = "8080"
 		portUsage   = "the port for the server to listen on"
+		defaultVerbosity = false
+		verbosityUsage = "whether we print incoming messages"
 	)
 	flag.StringVar(&host, "host", defaultHost, hostUsage)
-	flag.StringVar(&host, "h", defaultHost, hostUsage+" (shorthand)")
+	flag.StringVar(&host, "h", defaultHost, hostUsage + " (shorthand)")
 	flag.StringVar(&port, "port", defaultPort, portUsage)
-	flag.StringVar(&port, "p", defaultPort, portUsage+" (shorthand)")
+	flag.StringVar(&port, "p", defaultPort, portUsage + " (shorthand)")
+	flag.BoolVar(&verbose, "verbose", defaultVerbosity, verbosityUsage)
+	flag.BoolVar(&verbose, "v", defaultVerbosity, verbosityUsage + " (shorthand)")
+}
+
+func MessageHandler(w http.ResponseWriter, req *http.Request) {
+	if req.Method == "POST" {
+
+		body, err := ioutil.ReadAll(io.LimitReader(req.Body, 1048576))
+		if err != nil {
+			panic(err)
+		}
+
+		if verbose {
+			fmt.Println(string(body))
+		}
+
+		if err := req.Body.Close(); err != nil {
+			panic(err)
+		}
+
+		var message Message
+		if err := json.Unmarshal(body, &message); err != nil {
+			w.Header().Set("Content-Type", "application/json; charset=UTF-8")
+			w.WriteHeader(http.StatusUnprocessableEntity)
+			if err := json.NewEncoder(w).Encode(err); err != nil {
+				panic(err)
+			}
+		}
+
+		if verbose {
+			fmt.Println(string(body))
+		}
+
+		w.Header().Set("Content-Type", "text/plain")
+		w.Write([]byte("Message Received!"))
+		return
+	}
+	w.Header().Set("Content-Type", "text/plain")
+	w.Write([]byte("CS:GO Game State Server 👋"))
 }
 
 func main() {
 	flag.Parse()
-	http.HandleFunc("/", handler)
+	http.HandleFunc("/", MessageHandler)
 	address := fmt.Sprintf("%s:%s", host, port)
 	log.Printf("About to listen on http://%s/", address)
 	err := http.ListenAndServe(address, nil)
